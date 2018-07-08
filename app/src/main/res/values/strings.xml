@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Student</string>
+    <string name="activity_main_header">Student List</string>
+
+</resources>
