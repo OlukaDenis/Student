@@ -1,5 +1,31 @@
 <resources>
-    <string name="app_name">Student</string>
-    <string name="activity_main_header">Student List</string>
+    <string name="app_name">Web Info-Net</string>
+    <string name="activity_main_header">Internees 2018</string>
+    <string name="activity_course_header">Courses</string>
+    <string name="activity_staff_header">Our Staff</string>
+    <string name="activity_about_header">About WIN</string>
+
+    <string name="about_header">Background</string>
+    <string name="vision_header">Vision</string>
+    <string name="mission_header">Mission</string>
+
+    <string name="about">
+        Web Info-Net ltd is a private limited IT Business Solution company. It was formed in 2010 by IT Experts from Different organizations.
+        It deals in ICT Training, Services and supplies to Universities and other educational institutions, Government organizations,
+            Private companies and individuals.
+        Web Info-Net Ltd has been prequalified by over 250 big organizations in Uganda, and it has completed several projects in Local area Network (LAN) setup,
+            Computer maintenance and repairs, supply of different ICT equipments and Developing Different Computer Software\'s.
+
+    </string>
+
+    <string name="vision">
+        <br /> To Meet Each Client’s Business Vision- is our mission.
+    </string>
+
+    <string name="mission">
+       To provide and facilitate the delivery of quality, sustainable, customer oriented services efficiently and effectively.
+        To consistently create value for our stakeholders, by providing solutions which enable our customers to achieve excellence and
+        sustainable competitive edge with emerging technologies in IT fields.
+    </string>
 
 </resources>

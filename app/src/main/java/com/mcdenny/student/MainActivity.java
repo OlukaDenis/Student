@@ -2,6 +2,8 @@ package com.mcdenny.student;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -19,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         students = new ArrayList<>();
-                students.add(new Student("Oluka Denis", "Computer Science, Ndejje University", R.drawable.student_icon));
+                students.add(new Student("Oluka Denis", "Computer Science, Ndejje University", R.drawable.deno));
                 students.add(new Student("Anne", "Computer Science, MUST", R.drawable.student_icon));
                 students.add(new Student("Olinga Daniel", "Information Technology, Ndejje University", R.drawable.student_icon));
                 students.add(new Student("Namwanje Josephine", "Computer Science, MUST", R.drawable.student_icon));
@@ -34,10 +36,16 @@ public class MainActivity extends AppCompatActivity {
                   students.add(new Student("Nakimbugwe Margaret", "Computer Science, Muni University", R.drawable.student_icon));
 
 
-        studentAdapter = new StudentAdapter(students, getApplicationContext());
+        studentAdapter = new StudentAdapter(getApplicationContext(),R.layout.student_custom_activity, students);
 
         studentList = (ListView) findViewById(R.id.list);
         studentList.setAdapter(studentAdapter);
 
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
     }
 }

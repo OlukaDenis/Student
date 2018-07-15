@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#003366"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -14,19 +13,60 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Web Info-Net Students' internship Training"
+            android:text="Web Info-Net limited"
             android:layout_margin="16dp"
-            android:textColor="#fff"
+            android:textColor="#222"
+            android:textAllCaps="true"
             android:textSize="32dp"
             android:gravity="center"/>
 
-        <Button
-            android:layout_width="wrap_content"
+        <ImageView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NEXT"
-            android:layout_gravity="center"
-            android:layout_marginTop="300dp"
-            android:onClick="goNext"/>
+            android:src="@drawable/images"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:id="@+id/internee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internees 2018"
+            android:padding="16dp"
+            android:onClick="goInternee"
+            android:textSize="20sp"
+            android:textColor="#222"
+            android:background="#b3d9ff"/>
+
+        <TextView
+            android:id="@+id/courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses available"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:onClick="goCourses"
+            android:textColor="#222"
+            android:background="#e0e0eb"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Staff"
+            android:onClick="goStaff"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:textColor="#222"
+            android:background="#b3d9ff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About WIN"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:textColor="#222"
+            android:onClick="goAbout"
+            android:background="#e0e0eb"/>
     </LinearLayout>
 
 
